@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from 'react';
 
-export function Header({setAuthorities}, {authorities}) {
+export function Header({setAuthorities}) {
 
     const navigate = useNavigate();
     const [isAdmin, setIsAdmin] = useState(false)

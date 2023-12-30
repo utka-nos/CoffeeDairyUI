@@ -23,7 +23,7 @@ export function AdminPage() {
             }
       })
       .then(response => {
-        if(response.status !== 200) {
+        if(response.status === 403 || response.status === 401) {
           window.location.assign("http://localhost:3000/home")
         }
         return response.json()
