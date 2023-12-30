@@ -7,7 +7,7 @@ import { LoginPage }       from './pages/LoginPage.js';
 import { AuthorizePage }   from './pages/AuthorizePage.js'
 import { AdminPage }       from './pages/AdminPage.js'
 import { ProfilePage }     from './pages/ProfilePage.js'
-import { MyCoffeesPage }   from './pages/MyCoffeesPage.js'
+import { MyCoffeesPage }   from './pages/MyCoffeesPage/MyCoffeesPage.js'
 
 function App() {
 

@@ -11,7 +11,7 @@ export function LoginPage() {
   }
 
   return (
-    <Container fluid>
+    <Container >
       <Row>
         <Col md>
           <Button onClick={onClickLoginButton}>Sign in</Button>
